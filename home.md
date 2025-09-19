@@ -4,7 +4,7 @@ title: Assoc. Prof. of Computer Science
 ---
 
 # research interests 
-While my interests have varied over the years, I am currently focusing on core computer systems research, including operating systems, concurrency, performance, and operating systems. 
+While my interests have varied over the years, I am currently focusing on core computer systems research, including operating systems, concurrency, and performance engineering. 
 
 # teaching 
 I teach and have had a hand in the design of many of the systems classes in the CS department, such as 
