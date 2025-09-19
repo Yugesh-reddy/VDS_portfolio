@@ -9,6 +9,7 @@ Below is a sampling of current research projects we are pursuing in my group. I 
 
 # Compound Processes
 _with Nilanjana Basu_ 
+
 Modern computer software commonly consists of groups of individual programs working together toward the same goal. This *common purpose* model is not reflected in the way the software actually executes today. Instead, each program runs in carefully guarded isolation, communicating via secure system calls. This project introduces a new concept, a “compound process” which better reflects the realities of modern software. A compound process may host several “guest” programs in a single trust domain, eliminating expensive and often redundant safeguards between components of a single software stack, to yield substantial performance benefits. 
 
 # Efficient Multi-Threading with Trust<T> 
