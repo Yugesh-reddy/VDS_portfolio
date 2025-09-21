@@ -7,6 +7,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+    <link rel="preload" href="{{photo|default(defaults.portrait)}}?v={% version %}" as="image"/>
     <link rel="stylesheet" href="../style.css?v={% version %}" type="text/css"/>
   </head>
   <body class="bg-uicblue">
@@ -60,7 +61,7 @@
             <a class="shrink text-sm" href="../experience/index.html">experience</a>
           </div>
         <div id="portrait-group" class="relative max-w-4xl mb-4">
-          <div id="portrait" style="background-image: url({{photo|default(defaults.portrait)}});" class="object-contain h-[50vh] bg-cover">&nbsp;</div>
+          <div id="portrait" style="background-image: url({{photo|default(defaults.portrait)}}?v={% version %});" class="object-contain h-[50vh] bg-cover">&nbsp;</div>
           <img id="circlemark" class="absolute bottom-0 left-6 w-24" src="../circle.svg"/>
           <div id="name-title" class="relative mr-5 text-right" style="line-height: 12px">
             <span class="font-bold text-lg">{{name|default(defaults.name)}}</span><br/>
