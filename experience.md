@@ -1,7 +1,7 @@
 ---
 name: Yugesh Reddy Sappidi
 title: Computer Science Graduate Student
-photo: /VDS_portfolio/photos/portrait2.jpg
+photo: ../photos/portrait.jpg
 ---
 
 

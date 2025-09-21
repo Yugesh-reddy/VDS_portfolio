@@ -1,5 +1,5 @@
 ---
-photo: /VDS_portfolio/photos/portrait3.jpg
+photo: ../photos/portrait3.jpg
 title: Computer Science Graduate Student
 ---
 
